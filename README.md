@@ -19,27 +19,9 @@ for weeks at a time, in Japanese. A laptop never reaches them.
 ### Backups
 
 The machine holding my data is also the most likely thing to lose it, so the
-offsite copy is deliberately not fully reachable from it. The credential the
-server carries can write and delete; it cannot stop replication, rewrite
-retention or purge history. A second copy keeps versions the first no longer
-has, and does not replicate deletions.
-
-Two things only an audit found, both worth more than the setup itself:
-
-- **A backup log cannot tell you what you forgot.** "33 of 33 OK" only says
-  the 33 steps I wrote passed. A service missing from the script fails
-  silently, forever, and no log will ever mention it. Coverage has to be
-  counted from three directions at once — containers, system services, data
-  directories — because each one is blind to what the others hold. A monthly
-  job does that now and speaks up only when something is uncovered.
-- **Data restores; a machine doesn't.** The first audit found every byte of
-  photos, files and mail covered, and not one of the unit files, cron tables or
-  firewall rules that say how any of it starts. Everything would have come
-  back, with nothing to start it. Those are in the backup now.
-
-Restores are tested rather than assumed — pulled back from the offsite copy and
-compared file by file, including through the encrypted path, where even the
-directory names are unreadable from the provider's side.
+offsite copy is deliberately not fully reachable from it, and restores are
+tested rather than assumed. The part that took longest to learn was that a
+backup log cannot tell you what you forgot.
 
 Which software, how it is put together, and the decisions behind all of it —
 including the wrong ones — are at **[taikiito.com](https://taikiito.com/)**.
