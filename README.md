@@ -1,8 +1,9 @@
 ## Taiki Ito
 
 Petroleum trading is my job. I don't write code — I decide what to build and
-why, and I build it with [Claude Code](https://claude.com/claude-code). What I
-run, I run on a server I pay for myself.
+why, and I build it with [Claude Code](https://claude.com/claude-code).
+
+This account sat empty until August 2026. Everything here started then.
 
 → **[taikiito.com](https://taikiito.com/)**
 
