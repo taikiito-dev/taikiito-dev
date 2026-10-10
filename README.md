@@ -5,9 +5,19 @@ why, and I build it with [Claude Code](https://claude.com/claude-code).
 
 This account sat empty until August 2026. Everything here started then.
 
-→ **[taikiito.com](https://taikiito.com/)**
-
 ---
+
+### Where this runs
+
+Since September 2026 my photos, files, calendars, passwords and mail have run
+on one server I pay for. Most of what is here exists because moving off a
+cloud service left a gap.
+
+It is also why the bugs below were findable: a VPS, in Docker, not on a Mac, up
+for weeks at a time, in Japanese. A laptop never reaches them.
+
+Which software, how it is put together, and the decisions behind it —
+including the wrong ones — are at **[taikiito.com](https://taikiito.com/)**.
 
 ### What I've built
 
@@ -26,14 +36,11 @@ Four led to fixes:
 - [#3018](https://github.com/receptron/mulmoclaude/issues/3018) — a manually-registered stdio MCP server never surfaced
 - [#2937](https://github.com/receptron/mulmoclaude/issues/2937) — intervals over 24h all collapsed into "every day at 00:00 UTC"
 
-These came out of running the thing somewhere it wasn't designed for: a VPS, in
-Docker, not on a Mac, up for weeks at a time, in Japanese. Different vantage
-point, different bugs.
+Different vantage point, different bugs.
 
 ### Writing
 
-Decision records from moving my photos, files, passwords, mail and calendar off
-other people's servers and onto my own — including the calls that turned out
-wrong. Mostly in Japanese.
+Decision records from the move described above, including the calls that turned
+out wrong. Mostly in Japanese.
 
 → [taikiito.com/ja/writing/](https://taikiito.com/ja/writing/)
