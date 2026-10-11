@@ -1,30 +1,18 @@
 ## Taiki Ito
 
-Petroleum trading is my job. I don't write code — I decide what to build and
-why, and I build it with [Claude Code](https://claude.com/claude-code).
+Petroleum trading is my job. I don't write code — I decide what to build and why, and I build it with [Claude Code](https://claude.com/claude-code).
 
 This account sat empty until August 2026. Everything here started then.
 
----
+### Owning my own data
 
-### Where this runs
+Since September 2026 my photos, files, calendars, passwords and mail have lived on one server I pay for. The server is not the point — it is the method. The point is that the terms of custody for everything irreplaceable to me are mine to set, not a vendor's.
 
-Since September 2026 my photos, files, calendars, passwords and mail have run
-on one server I pay for. Most of what is here exists because moving off a
-cloud service left a gap.
+That is also where most of my bug reports come from: software on that server runs on Linux, in Docker, unattended for weeks, in Japanese — a state a developer's laptop never stays in. [The reports, and what came of them →](https://github.com/search?q=author%3Ataikiito-dev+is%3Aissue&type=issues)
 
-It is also why the bugs below were findable: a VPS, in Docker, not on a Mac, up
-for weeks at a time, in Japanese. A laptop never reaches them.
+Owning the data means owning the losing of it, so the offsite copy is deliberately not fully reachable from the server, and restores are tested rather than assumed. The part that took longest to learn: a backup log cannot tell you what you forgot.
 
-### Backups
-
-The machine holding my data is also the most likely thing to lose it, so the
-offsite copy is deliberately not fully reachable from it, and restores are
-tested rather than assumed. The part that took longest to learn was that a
-backup log cannot tell you what you forgot.
-
-Which software, how it is put together, and the decisions behind all of it —
-including the wrong ones — are at **[taikiito.com](https://taikiito.com/)**.
+Which software, how it is put together, and the decisions behind all of it — including the wrong ones — are at **[taikiito.com](https://taikiito.com/)**.
 
 ### What I've built
 
@@ -33,21 +21,8 @@ including the wrong ones — are at **[taikiito.com](https://taikiito.com/)**.
 | **[booking-to-caldav](https://github.com/taikiito-dev/booking-to-caldav)** | Turns booking confirmation emails into events on your own CalDAV server. Watches IMAP over IDLE, so it reacts within seconds instead of polling. Running in production. |
 | **[singlish-lah](https://github.com/taikiito-dev/singlish-lah)** · [site](https://singlish.taikiito.com) | A glossary of Singlish and local slang I actually ran into, written for Japanese speakers living here. |
 
-### What I've reported upstream
-
-Six issues on [receptron/mulmoclaude](https://github.com/receptron/mulmoclaude/issues?q=is%3Aissue+author%3Ataikiito-dev).
-Four led to fixes:
-
-- [#3415](https://github.com/receptron/mulmoclaude/issues/3415) — journal session links pointed at the wrong path, dead in editors
-- [#3357](https://github.com/receptron/mulmoclaude/issues/3357) — the stdio→HTTP shim leaked one port per turn; the MCP server silently disappeared after ~20 turns
-- [#3018](https://github.com/receptron/mulmoclaude/issues/3018) — a manually-registered stdio MCP server never surfaced
-- [#2937](https://github.com/receptron/mulmoclaude/issues/2937) — intervals over 24h all collapsed into "every day at 00:00 UTC"
-
-Different vantage point, different bugs.
-
 ### Writing
 
-Decision records from the move described above, including the calls that turned
-out wrong. Mostly in Japanese.
+Decision records from that move, including the calls that turned out wrong. Mostly in Japanese.
 
 → [taikiito.com/ja/writing/](https://taikiito.com/ja/writing/)
