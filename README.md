@@ -1,9 +1,9 @@
 ## Taiki Ito
 
-Petroleum trading is my job. I don't write code — I decide what to build and why, and I build it with [Claude Code](https://claude.com/claude-code).
+Petroleum trader in Singapore by day. In August 2026 I started building software — I decide what gets built and why; Claude Code writes it. This account was empty until then.
 
-This account sat empty until August 2026. Everything here started then.
+My photos, files, passwords, calendars and mail live on one server I pay for. The server is not the point. Setting the terms of custody myself is.
 
-Since September 2026 my photos, files, calendars, passwords and mail have lived on one server I pay for. The server is not the point — it is the method: the terms of custody for everything irreplaceable to me are mine to set, not a vendor's. It is also where most of my bug reports come from — software there runs unattended for weeks, in Japanese, a state a developer's laptop never stays in. [The reports →](https://github.com/search?q=author%3Ataikiito-dev+is%3Aissue&type=issues)
+Software on that server runs unattended for weeks, in Japanese — it breaks in ways a developer's laptop never sees. [I file what I find →](https://github.com/search?q=author%3Ataikiito-dev+is%3Aissue&type=issues)
 
-The software, how it fits together, and the decisions behind it — including the wrong ones — are at **[taikiito.com](https://taikiito.com/)**.
+The decisions, including the wrong ones → [taikiito.com](https://taikiito.com/)
